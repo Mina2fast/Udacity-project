@@ -5,13 +5,13 @@
     grid-template-rows: 1fr 3fr 1fr ;
     grid-template-areas: 
     "nav nav nav"
-    "ct ct ct"
-    "ft ft ft";
+    "ct ct ct";
 }
 #nav{
     grid-area: nav;
     margin: 0%;
-    background-color: #4aabb2;
+    background-color: #000000;
+    color:#FFFFFF;
 }
 #content{
     grid-area: ct;
@@ -19,5 +19,8 @@
 }
 #foot{
     grid-area:ft;
-    background-color: #4aabb2;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0;
 }

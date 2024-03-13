@@ -16,9 +16,23 @@
 h1{
     text-align: center;
 }
+h3{
+    margin-top: 0;
+}
+.items p{
+    margin-bottom: 10px;
+}
+.items a {
+    display: inline-block;
+        background-color: #000;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-decoration: none;}
 *{
     font-family:serif;
 }
+
 #item1{
     min-width: 1fr;
 }

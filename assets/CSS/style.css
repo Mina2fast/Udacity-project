@@ -1,13 +1,14 @@
 .container{
     display: grid;
     grid-template-areas: 
+    "head"
     "nav"
     "ct"
     "ft";
     min-height: 100vh;
 }
 #nav{
-    grid-area: nav;
+    grid-area: head;
     margin: 0;
     background-color: #000000;
     color:#FFFFFF;
@@ -29,11 +30,27 @@ body{
     margin: 0;
     padding: 0;
 }
-#nav{
-    background-color: #271e8a;
+#head{
+    background-color: #5b5780;
     color: #fff;
     text-align: center;
     padding: 20px 0;
 }
 .article .read-more:hover {
     background-color: #333;}
+.nav{
+    grid-area: nav;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding-right: 30px;
+}
+.nav a:hover{
+    background-color: #333666;
+}

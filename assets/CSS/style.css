@@ -50,6 +50,9 @@ body{
     text-decoration: none;
     margin: 0 10px;
     padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .nav a:hover{
     background-color: #333666;

@@ -14,10 +14,41 @@
         <div class="login">
            Username<input type="text"><br>
            Password<input type="password"><br>
-           w
+           <select id="styleSelector" onchange="changeStyle()">
+            <option value="default.css">Style 1</option>
+            <option value="style1.css">Style 2</option>
+            <option value="style2.css">Style 3</option>
+        </select>
         </div>
         <div class="calc">
-
+            <input type="text" id="result" disabled>
+            <div class="button-row">
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button">+</button>
+            </div>
+            <div class="button-row">
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button">-</button>
+            </div>
+            <div class="button-row">
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button">*</button>
+            </div>
+            <div class="button-row">
+                <button class="button">0</button>
+                <button class="button">.</button>
+                <button class="button">=</button>
+                <button class="button">/</button>
+            </div>
+            <div class="button-row">
+                <button class="button">Clear</button>
+            </div>
         </div>
         <div class="info">
 

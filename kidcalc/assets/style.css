@@ -1,0 +1,24 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.calc{
+    width: 220px; /* Adjust width as needed */
+    margin: 50px auto; /* Center the calculator horizontally with some top margin */
+    text-align: center;
+    border: 1px solid #080404;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}

@@ -4,21 +4,36 @@
     text-align: center;
 }
 .calc{
-    width: 220px; /* Adjust width as needed */
-    margin: 50px auto; /* Center the calculator horizontally with some top margin */
+    width: 220px;
+    margin: 50px auto;
     text-align: center;
-    border: 1px solid #080404;
+    border: 1px solid #100d0d;
     border-radius: 5px;
     padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 }
 .button {
     width: 50px;
     height: 50px;
-    margin: 5px;
     font-size: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #211414;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #d1c4c4;
     cursor: pointer;
 }
+#result{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #3e3636;
+    border-radius: 5px;
+    font-size: 18px;    
+}
+#clear{
+    width: 70px;
+}
+.button:hover{
+    background-color: #eaeaea;
+}
+@import

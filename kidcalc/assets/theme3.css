@@ -1,7 +1,7 @@
 .login{
     width: 500px;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid red;
     border-radius: 10px;
     text-align: left;
     margin: 50px auto;
@@ -15,11 +15,9 @@
     width: 220px;
     margin: 50px auto;
     text-align: center;
-    border: 1px solid #100d0d;
+    border: 1px solid red;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 .button {
     width: 50px;
@@ -27,7 +25,7 @@
     font-size: 20px;
     border: 1px solid #211414;
     border-radius: 5px;
-    background-color: #d1c4c4;
+    background-color: #980fd7;
     cursor: pointer;
 }
 #result{
@@ -60,7 +58,7 @@
 #mathimatical_expressions_box_input{
     width: 200px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid red;
     border-radius: 5px;
     font-size: 16px;    
 }
@@ -68,8 +66,10 @@
     width: 700px;
     margin: 50px auto;
     text-align: center;
-    border: 1px solid #100d0d;
+    border: 1px solid red;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body{
+    background-color: chartreuse;
 }

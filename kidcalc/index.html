@@ -6,22 +6,16 @@
     <title>kidCalc</title>
     <link rel="stylesheet" href="assets/style.css" id="mainStylesheet">
 
-    <script>
-        function theme_selector(stylesheet){
-            const getName = document.getElementById("mainStylesheet").setAttribute('href', StyleSheet)
-            document.body.className = getName
-        }
-    </script>
 </head>
 <body>
     <div class="content">
         <div class="login">
             Username<input type="username" required><br>
             Password<input type="password" required><br>
-            <select id="login" id="styleSelector" onchange="theme_selector(this.value)">
-                <option value="theme1.css.css">Style 1</option>
-                <option value="theme2.css.css">Style 2</option>
-                <option value="theme3.css.css">Style 3</option>
+            <select id="login" id="styleSelector" >
+                <option>Style 1</option>
+                <option>Style 2</option>
+                <option>Style 3</option>
             </select><br>
             <button id="login">submit</button>
         </div>

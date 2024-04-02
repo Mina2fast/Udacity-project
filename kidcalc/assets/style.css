@@ -48,4 +48,13 @@
 .button:hover{
     background-color: #eaeaea;
 }
-@import
+
+
+#mathimatical_expressions_box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 0.5); /* Translucent black color */
+    font-size: 14px;
+    pointer-events: none;
+}

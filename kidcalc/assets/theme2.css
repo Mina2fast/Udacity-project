@@ -1,0 +1,77 @@
+.login{
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: left;
+    margin: 50px auto;
+    padding: 20px;
+}
+#login{
+    padding: 10px auto;
+    margin: 5px auto;
+}
+.calc{
+    width: 220px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #211414;
+    border-radius: 5px;
+    background-color: #8e1c1c;
+    cursor: pointer;
+}
+#result{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #3e3636;
+    border-radius: 5px;
+    font-size: 18px;    
+}
+#clear{
+    width: 70px;
+}
+.button:hover{
+    background-color: #eaeaea;
+}
+
+
+#mathimatical_expressions_box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 0.5); 
+    font-size: 14px;
+    pointer-events: none;
+}
+.input-container {
+    position: relative;
+}
+#mathimatical_expressions_box_input{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;    
+}
+.info{
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #100d0d;
+    border-radius: 5px;
+    padding: 10px;
+}
+body{
+    background-color: aqua;
+}

@@ -12,13 +12,14 @@
 <body>
     <div class="content">
         <div class="login">
-            Username<input type="text"><br>
-            Password<input type="password"><br>
-            <select id="styleSelector" onchange="changeStyle()">
+            Username<input type="username" required><br>
+            Password<input type="password" required><br>
+            <select id="login" id="styleSelector" onchange=" changeStyle()">
                 <option value="default.css">Style 1</option>
                 <option value="style1.css">Style 2</option>
                 <option value="style2.css">Style 3</option>
-            </select>
+            </select><br>
+            <button id="login">submit</button>
         </div>
         <div class="calc">
             <input type="text" id="result" disabled>

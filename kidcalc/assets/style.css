@@ -1,7 +1,19 @@
-.calculator {
-    width: 200px;
+
+.login{
+    width: 500px;
     margin: 0 auto;
-    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: left;
+    margin: 50px auto;
+    padding: 20px;
+}
+#login{
+    padding: 10px auto;
+    margin: 5px auto;
+}
+.input{
+
 }
 .calc{
     width: 220px;

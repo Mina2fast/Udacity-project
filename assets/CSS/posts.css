@@ -2,16 +2,17 @@
     padding: 20px;
 }   
 .circle-container {
-    width: 200px; /* Adjust size of the circle */
-    height: 200px; /* Adjust size of the circle */
-    border-radius: 50%; /* Makes the container a circle */
-    overflow: hidden; /* Hides any content outside the circle */
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden;
+    border: 4px solid #584444; 
 }
 
 .circle-image {
-    width: 100%; /* Ensures the image fills the circle container */
-    height: 100%; /* Ensures the image fills the circle container */
-    object-fit: cover; /* Scales the image to cover the entire container */
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
 .about{
     border-bottom: 1px solid rgb(62, 62, 86);
